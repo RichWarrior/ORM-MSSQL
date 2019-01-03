@@ -129,13 +129,18 @@ namespace ORM_MSSQL.Framework
                         if (query.Contains(item.Name))
                         {
                             item.SetValue(a, reader[item.Name] == DBNull.Value ? null : reader[item.Name]);
-                        }                        
+                        }
+                        if (query.Contains("*"))
+                        {
+                            item.SetValue(a, reader[item.Name] == DBNull.Value ? null : reader[item.Name]);
+                        }
                     }
                     result.Add(a);
                 }
             }
-            catch (Exception)
+            catch (Exception ex)
             {
+                Console.WriteLine(ex.Message);
             }
             finally
             {
@@ -150,6 +155,26 @@ namespace ORM_MSSQL.Framework
         public async Task<List<T>> Select<T>(string query)
         {
             return await Task.Run(() => this.Select<T>(query,new { }));           
+        }
+
+        public Task<bool> BulkInsert(List<object> value)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<List<T>> StoredProcedure<T>(object value)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<bool> RunQuery(string query)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<bool> RunQuery(string query, object args)
+        {
+            throw new NotImplementedException();
         }
     }
 }

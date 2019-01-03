@@ -9,7 +9,7 @@ namespace ORM_MSSQL.Framework
 {
     public class Students
     {
-        public int? id { get; set; }
+        public string Id { get; set; }
         public string Name { get; set; }
         public string Surname { get; set; }
     }
