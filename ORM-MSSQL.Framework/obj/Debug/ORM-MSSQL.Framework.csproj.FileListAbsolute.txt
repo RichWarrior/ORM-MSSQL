@@ -1,0 +1,8 @@
+C:\Projects\ORM-MSSQL\ORM-MSSQL.Framework\bin\Debug\ORM-MSSQL.Framework.exe.config
+C:\Projects\ORM-MSSQL\ORM-MSSQL.Framework\bin\Debug\ORM-MSSQL.Framework.exe
+C:\Projects\ORM-MSSQL\ORM-MSSQL.Framework\bin\Debug\ORM-MSSQL.Framework.pdb
+C:\Projects\ORM-MSSQL\ORM-MSSQL.Framework\bin\Debug\System.Data.Common.dll
+C:\Projects\ORM-MSSQL\ORM-MSSQL.Framework\bin\Debug\System.Data.SqlClient.dll
+C:\Projects\ORM-MSSQL\ORM-MSSQL.Framework\obj\Debug\ORM-MSSQL.Framework.csprojResolveAssemblyReference.cache
+C:\Projects\ORM-MSSQL\ORM-MSSQL.Framework\obj\Debug\ORM-MSSQL.Framework.exe
+C:\Projects\ORM-MSSQL\ORM-MSSQL.Framework\obj\Debug\ORM-MSSQL.Framework.pdb
