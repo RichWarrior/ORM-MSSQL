@@ -8,3 +8,5 @@ C:\Projects\ORM-MSSQL\ORM-MSSQL.Framework\obj\Debug\ORM-MSSQL.Framework.pdb
 C:\Projects\ORM-MSSQL\ORM-MSSQL.Framework\obj\Debug\ORM-MSSQL.Framework.csprojAssemblyReference.cache
 C:\Projects\ORM-MSSQL\ORM-MSSQL.Framework\obj\Debug\ORM-MSSQL.Framework.csproj.CoreCompileInputs.cache
 C:\Projects\ORM-MSSQL\ORM-MSSQL.Framework\obj\Debug\ORM-MSSQL.Framework.csproj.CopyComplete
+C:\Projects\ORM-MSSQL\ORM-MSSQL.Framework\bin\Debug\log4net.dll
+C:\Projects\ORM-MSSQL\ORM-MSSQL.Framework\bin\Debug\log4net.xml

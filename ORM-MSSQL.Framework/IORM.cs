@@ -9,7 +9,7 @@ namespace ORM_MSSQL.Framework
         Task<List<T>> Select<T>(string query);
         Task<List<T>> Select<T>(string query, object args);
         Task<bool> Insert(object value);
-        Task<bool> BulkInsert(List<object> value);
+        Task<bool> BulkInsert<T>(List<T> value);
         Task<bool> RunQuery(string query);
         Task<bool> RunQuery(string query, object args);        
         Task<List<T>> StoredProcedure<T>(object value);        
